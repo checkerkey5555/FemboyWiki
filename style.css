@@ -1,0 +1,420 @@
+/* LINK COSTUMISATION */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgoldenrodyellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* TITLES =================== */ 
+
+mark {
+  background-color: darkyellow; 
+	color: black black;
+}
+
+smark {
+  background-color: orangered; 
+	color: black;
+}
+
+/* WARNINGS ================== */ 
+
+wmark {
+  background-color: red;
+  color: black;
+}
+
+/* LOGO ====================== */
+
+lmark1 {
+  background-color: ; 
+	color: #36D0B7;
+}
+
+lmark2 {
+  background-color: ; 
+	color: #47DC78;
+}
+
+lmark3 {
+  background-color: ; 
+	color: #FA815F;
+}
+
+lmark4 {
+  background-color: ; 
+	color: #D51010;
+}
+
+lmark5 {
+  background-color: ; 
+	color: #FFBE0D;
+}
+
+/* BOOKMARK LOGO ====================== */
+
+blmark1 {
+  background-color: ; 
+	color: #775007;
+}
+
+blmark2 {
+  background-color: ; 
+	color: #5b3d05;
+}
+
+blmark3 {
+  background-color: ; 
+	color: #483004;
+}
+
+blmark4 {
+  background-color: ; 
+	color: #3f2a03;
+}
+
+blmark5 {
+  background-color: ; 
+	color: #381f06;
+}
+
+blmark6 {
+  background-color: ; 
+	color: #cb6a15;
+}
+
+/* MUSIC LOGO ====================== */
+
+wlmark1 {
+  background-color: ; 
+	color: #FBBF60;
+}
+
+wlmark2 {
+  background-color: ; 
+	color: #E89005;
+}
+
+wlmark3 {
+  background-color: ; 
+	color: #EC7505;
+}
+
+wlmark4 {
+  background-color: ; 
+	color: #D84A05;
+}
+
+wlmark5 {
+  background-color: ; 
+	color: #F42B03;
+}
+
+wlmark6 {
+  background-color: ; 
+	color: #E70E02;
+}
+
+/* Block Colours == not working yet ============ */
+
+markred {
+  background-color: red; 
+	color: red;
+}
+
+markwhite {
+  background-color: white ; 
+	color: white;
+}
+
+/* EMOTICON ANIMATION ====================== */
+
+/* info: ok so the things that have to be unique:
+in a certian page is the aniemoinsert: before
+and the animate function ok (: */
+
+aniemoone::before {
+    content: "/(^u^)/";
+    animation: animateh infinite 1s;
+		color: lightpink;
+}
+  
+@keyframes animateh {
+  
+    0% {
+        content: "/(^u^)/";
+				color: lightpink
+      }
+
+    25% {
+        content: "|(^u^)|";
+      }
+
+    50% {
+        content: "\\(^u^)\\";
+		}
+
+    75% {
+				content: "|(^u^)|";
+			}
+
+}
+
+aniemotwo::before {
+    content: "<('.'-^)";
+    animation: animate infinite 1s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        content: "<('.'-^)";
+				color: ghostwhite;
+      }
+    25% {
+        content: "(^-'.'-^)";
+      }
+    50% {
+        content: "(^-'.')>";
+		}
+    75% {
+				content: "(^-'.'-^)";
+			}
+}
+
+aniemothree::before {
+    content: "¯\\_(ツ)_/¯";
+    animation: animate infinite 6s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        content: "¯\\_(ツ)_/¯";
+				color: ghostwhite;
+      }
+    25% {
+        content: "--_(ツ)_--";
+      }
+    50% {
+        content: ".-_(ツ)_-.";
+      }
+    75% {
+        content: "--_(ツ)_--";
+		}
+}
+
+aniemofour::before {
+    content: "(´∀｀)*";
+    animation: animate infinite 6s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        content: "(´∀｀)*";
+				color: ghostwhite;
+      }
+    25% {
+        content: "(´v｀) *";
+      }
+    50% {
+        content: "(´v｀)*";
+      }
+    75% {
+        content: "(´∀｀) *";
+		}
+}
+
+aniemofive::before {
+    content: "(uwu)";
+    animation: animate infinite 1s;
+		color: black;
+	  background-color: yellow; 
+}
+@keyframes animate {
+    0% {
+        content: "(uwu)";
+				color: black;
+		  	background-color: yellow ; 
+      }
+    25% {
+        content: "(UwU)";
+      }
+    50% {
+        content: "(UWU)";
+      }
+    75% {
+        content: "(uWu)";
+		}
+}
+
+aniemosix::before {
+    content: ":0";
+    animation: animatez infinite 1s;
+		color: black;
+	  background-color: yellow; 
+}
+@keyframes animatez {
+    0% {
+        contens: ":O";
+				color: black;
+		  	background-color: yellow ; 
+      }
+    25% {
+        content: ":o";
+      }
+    50% {
+        content: ":.";
+      }
+    75% {
+        content: ":o";
+		}
+}
+
+aniemoseven::before {
+    content: ":3 ";
+    animation: animater infinite 1s;
+		color: ghostwhite;
+	  background-color: black; 
+}
+@keyframes animater {
+    0% {
+        contens: ":3 ";
+				color: ghostwhite;
+		  	background-color: black ; 
+      }
+    25% {
+        content: ": 3";
+      }
+    50% {
+        content: ": 3";
+      }
+    75% {
+        content: ":3 ";
+		}
+}
+
+aniemoeight::before {
+    content: "(╯°□°）╯︵ ┻━┻ ";
+    animation: animata infinite 1s;
+		color: black;
+	  background-color: yellow; 
+}
+@keyframes animata {
+    0% {
+        contens: "(╯°□°）╯︵ ┻━┻ ";
+				color: black;
+		  	background-color: yellow ; 
+      }
+    25% {
+        content: "(╯O□O）╯︵  ┻━┻";
+      }
+    50% {
+        content: "(╯°□°）╯︵  ┻━┻";
+      }
+    75% {
+        content: "(╯O□O）╯︵ ┻━┻ ";
+		}
+}
+
+aniemonine::before {
+    content: "@";
+    animation: animatar infinite 1s;
+		color: yellow;
+}
+@keyframes animatar {
+    0% {
+        contens: "@";
+				color: yellow;
+      }
+    25% {
+        content: "@";
+				color: #757500;
+      }
+    50% {
+        content: "@";
+				color: #ffff3e;
+      }
+    75% {
+				color: #ffff9d;
+        content: "@";
+		}
+}
+
+aniemoten::before {
+    content: "  (⍁w⍂)";
+    animation: animate infinite 1s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        contens: "  (⍁w⍂)";
+				color: ghostwhite;
+      }
+    25% {
+        content: " c(⍁w⍂)>";
+      }
+    50% {
+        content: "c (⍁w⍂) >";
+      }
+    75% {
+        content: " c(⍁w⍂)>)";
+		}
+}
+
+/* text flipper ============ */
+
+span.tf {
+  writing-mode: vertical-rl;
+}
+
+/* IMAGE EXPANSION DIV */
+
+.div{
+  background: orangered;
+		position: relative; left: 20px; top: 0px;
+		width: 25px;
+		height: 25px;
+  transition: height + width 2s;
+  transition:  1s;
+}
+.div:hover {     
+	background-image: url(first-thigh-garter.png);
+  width: 1610px;
+	height: 1520px;
+}	
+
+.div2{
+  background: orangered;
+		position: relative; left: 20px; top: 0px;
+		width: 25px;
+		height: 25px;
+  transition: height + width 2s;
+  transition:  1s;
+}
+.div2:hover{     
+	background-image: url(hygene.png);
+  width: 1610px;
+	height: 1520px;
+}	
