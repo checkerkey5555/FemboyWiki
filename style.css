@@ -242,7 +242,7 @@ aniemoone::before {
     animation: animateh infinite 1s;
 		color: lightpink;
 }
-  
+
 @keyframes animateh {
   
     0% {
@@ -528,6 +528,7 @@ textani::before {
     animation: animater 1.5s;
 		color: lightpink;
 }
+
 /*100/112*/
 @keyframes animater {
     0% {
