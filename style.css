@@ -247,7 +247,6 @@ aniemoone::before {
   
     0% {
         content: "/(^u^)/";
-				color: lightpink
       }
 
     25% {
@@ -272,7 +271,6 @@ aniemotwo::before {
 @keyframes animate {
     0% {
         content: "<('.'-^)";
-				color: ghostwhite;
       }
     25% {
         content: "(^-'.'-^)";
@@ -293,7 +291,6 @@ aniemothree::before {
 @keyframes animate {
     0% {
         content: "¯\\_(ツ)_/¯";
-				color: ghostwhite;
       }
     25% {
         content: "--_(ツ)_--";
@@ -314,7 +311,6 @@ aniemofour::before {
 @keyframes animate {
     0% {
         content: "(´∀｀)*";
-				color: ghostwhite;
       }
     25% {
         content: "(´v｀) *";
@@ -328,25 +324,23 @@ aniemofour::before {
 }
 
 aniemofive::before {
-    content: "(uwu)";
-    animation: animate infinite 1s;
-		color: black;
-	  background-color: yellow; 
+    content: "uwu";
+    animation: animateawdawd infinite 1s;
+		color: red;
+	  background-color: black; 
 }
-@keyframes animate {
+@keyframes animateawdawd {
     0% {
-        content: "(uwu)";
-				color: black;
-		  	background-color: yellow ; 
+        content: "uwu";
       }
     25% {
-        content: "(UwU)";
+        content: "UwU";
       }
     50% {
-        content: "(UWU)";
+        content: "UWU";
       }
     75% {
-        content: "(uWu)";
+        content: "uWu";
 		}
 }
 
@@ -358,9 +352,7 @@ aniemosix::before {
 }
 @keyframes animatez {
     0% {
-        contens: ":O";
-				color: black;
-		  	background-color: yellow ; 
+        content: ":O";
       }
     25% {
         content: ":o";
@@ -381,9 +373,7 @@ aniemoseven::before {
 }
 @keyframes animater {
     0% {
-        contens: ":3 ";
-				color: ghostwhite;
-		  	background-color: black ; 
+        content: ":3 ";
       }
     25% {
         content: ": 3";
@@ -404,9 +394,7 @@ aniemoeight::before {
 }
 @keyframes animata {
     0% {
-        contens: "(╯°□°）╯︵ ┻━┻ ";
-				color: black;
-		  	background-color: yellow ; 
+        content: "(╯°□°）╯︵ ┻━┻ ";
       }
     25% {
         content: "(╯O□O）╯︵  ┻━┻";
@@ -426,7 +414,7 @@ aniemonine::before {
 }
 @keyframes animatar {
     0% {
-        contens: "@";
+        content: "@";
 				color: yellow;
       }
     25% {
@@ -450,8 +438,7 @@ aniemoten::before {
 }
 @keyframes animate {
     0% {
-        contens: "  (⍁w⍂)";
-				color: ghostwhite;
+        content: "  (⍁w⍂)";
       }
     25% {
         content: " c(⍁w⍂)>";
@@ -472,7 +459,6 @@ aniemoeleven::before {
 @keyframes animate {
     0% {
         content: "/";
-				color: ghostwhite;
       }
     25% {
         content: "|";
@@ -483,6 +469,291 @@ aniemoeleven::before {
     75% {
         content: "-";
 		}
+}
+
+aniemotwelve::before {
+    content: " b(￣▽￣)d ";
+    animation: animath infinite 0.50s;
+		color: lightpink;
+}
+@keyframes animath {
+    0% {
+        content: " b(￣▽￣)d ";
+      }
+    25% {
+        content: "b (￣▽￣) d";
+      }
+    50% {
+        content: "b (￣▽￣) d";
+      }
+    75% {
+        content: " b(￣▽￣)d ";
+		}
+}
+
+aniemothirteen::before {
+    content: " (◑﹏◐)?  ";
+    animation: animathe infinite 2s;
+		background-color: yellow;
+		color: black;
+}
+@keyframes animathe { 
+    0% {
+        content: " (◑﹏◐)?  ";
+      }
+    25% {
+        content: " ( ◑﹏◐)? ";
+      }
+    50% {
+        content: " (◑﹏◐) ? ";
+      }
+    75% {
+        content: " (◑ ﹏◐)? ";
+			}
+}
+
+aniemofourteen::before {
+    content: "o(≧u≦)o";
+    animation: animatheg infinite 0.7s;
+		background-color: yellow;
+		color: black;
+}
+@keyframes animatheg { 
+    0% {
+        content: "o(≧u≦)o";
+      }
+    25% {
+        content: "o(≧u≦)O";
+      }
+    50% {
+        content: "O(≧u≦)o";
+      }
+    75% {
+        content: "O(≧U≦)O";
+			}
+}
+
+aniemofifthteen::before {
+    content: "(❁´◡`❁)";
+    animation: animathege infinite 0.7s;
+		background-color: yellow;
+		color: black;
+}
+@keyframes animathege { 
+    0% {
+        content: "(❁´◡`❁)";
+      }
+    25% {
+        content: "(❁´u`❁)";
+      }
+    50% {
+        content: "(❁´U`❁)";
+      }
+    75% {
+        content: "(❁´◡`❁)";
+			}
+}
+
+aniemosixteen::before {
+    content: " щ(ʘ╻ʘ)щ ";
+    animation: animathehe infinite 0.7s;
+		background-color: yellow;
+		color: black;
+}
+@keyframes animathehe { 
+    0% {
+        content: "щ(ʘ╻ʘ) щ ";
+      }
+    25% {
+        content: "щ (ʘ╻ʘ)щ ";
+      }
+    50% {
+				content: "щ (ʘ╻ʘ) щ";
+      }
+    75% {
+        content: "щ (ʘ╻ʘ)щ ";
+			}
+}
+
+aniemoseventeen::before {
+    content: " ᕦ(òuó)ᕤ ";
+    animation: animaterrys infinite 1s;
+		color: black;
+}
+@keyframes animaterrys {
+    0% {
+        content: " ᕦ(òuó)ᕤ ";
+      }
+    25% {
+        content: " ᕦ(òUó)ᕤ ";
+      }
+    50% {
+        content: "ᕦ (òUó) ᕤ";
+      }
+    60% {
+        content: " ᕦ(òuó)ᕤ ";
+      }
+}
+
+aniemoeighteen::before {
+    content: " ˋ(^ ▽、^) ";
+    animation: animatetrys infinite 1s;
+		color: black;
+}
+@keyframes animatetrys {
+    0% {
+        content: "ˋ (^ ▽、^) ";
+      }
+    25% {
+        content: "ˋ (^ ▽、^) ";
+      }
+    50% {
+        content: " ˋ(^ ▽、^) ";
+      }
+    60% {
+        content: " ˋ(^ ▽、^) ";
+      }
+}
+
+aniemonineteen::before {
+    content: "( ˇ෴ˇØ) ";
+    animation: animatetryass infinite 1s;
+		color: black;
+}
+@keyframes animatetryass {
+    0% {
+        content: "( ˇ෴ˇØ)/";
+      }
+    25% {
+        content: "( ˇ෴ˇØ)7";
+      }
+    50% {
+        content: "( ˇ෴ˇØ)/";
+      }
+    60% {
+        content: "( ˇ෴ˇØ) ";
+      }
+}
+
+aniemotwenty::before {
+    content: "(oﾟvﾟ)ノ ";
+    animation: aiimatetryass infinite 1s;
+		color: lightpink;
+}
+@keyframes aiimatetryass {
+    0% {
+        content: "(oﾟvﾟ)ノ ";
+      }
+    25% {
+        content: "(oﾟvﾟ) ノ";
+      }
+    50% {
+        content: "(oﾟvﾟ) ノ";
+      }
+    60% {
+        content: "(oﾟvﾟ)ノ ";
+      }
+}
+
+aniemotwentyone::before {
+    animation: aiimatetryasss infinite 1s;
+		color: lightpink;
+    content: "(╯▽╰ ')";
+}
+@keyframes aiimatetryasss {
+    0% {
+        content: "(╯▽╰ ')";
+      }
+    25% {
+        content: "(╯▽╰ #)";
+      }
+    50% {
+        content: "(╯▽╰ #)";
+      }
+    60% {
+        content: "(╯▽╰ *)";
+      }
+}
+
+aniemotwentytwo::before {
+    content: "o(≧u≦)o";
+    animation: animathegjk infinite 0.7s;
+		color: lightpink;
+}
+@keyframes animathegjk { 
+    0% {
+        content: "o(≧u≦)o";
+      }
+    25% {
+        content: "o(≧u≦)O";
+      }
+    50% {
+        content: "O(≧u≦)o";
+      }
+    75% {
+        content: "O(≧U≦)O";
+			}
+}
+
+aniemotwentythree::before {
+    content: "(0u0)b ";
+    animation: animatheghgjk infinite 0.7s;
+		color: lightpink;
+}
+@keyframes animatheghgjk { 
+    0% {
+        content: "(0u0)b ";
+      }
+    25% {
+        content: "(0u0) b";
+      }
+    50% {
+        content: "(0U0) b";
+      }
+    75% {
+        content: "(0U0)b ";
+			}
+}
+
+aniemotwentyfour::before {
+    content: "(>'u')b ";
+    animation: animty infinite 0.7s;
+		color: lightpink;
+}
+@keyframes animty { 
+    0% {
+        content: "(>'u')b ";
+      }
+    25% {
+        content: "(>'v') b";
+      }
+    50% {
+        content: "(>'v') b";
+      }
+    75% {
+        content: "(>'u')b ";
+			}
+}
+
+aniemotwentyfive::before {
+    content: "(★‿★)";
+    animation: animtty infinite 0.7s;
+		color: black;
+		background-color: yellow;
+}
+@keyframes animtty { 
+    0% {
+        content: "(★‿★)";
+      }
+    25% {
+        content: "(✯◡✯)";
+      }
+    50% {
+        content: "(☆◡☆)";
+      }
+    75% {
+        content: "(✹‿✹)";
+			}
 }
 
 /* text flipper ============ */
