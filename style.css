@@ -756,6 +756,27 @@ aniemotwentyfive::before {
 			}
 }
 
+aniemotwentysix::before {
+    content: "(*≧o≦))('▽`* )ゞ ";
+    animation: animttyy infinite 1.2s;
+		color: black;
+		background-color: yellow;
+}
+@keyframes animttyy { 
+    0% {
+        content: "(*≧o≦))('▽`~ )ゞ";
+      }
+    25% {
+        content: "(#≧u≦))('o`* ) 7";
+      }
+    50% {
+        content: "(#≧U≦))('▽`~ )7";
+      }
+    75% {
+        content: "(*≧u≦))('O`* )ゞ";
+			}
+}
+
 /* text flipper ============ */
 
 span.tf {
