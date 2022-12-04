@@ -31,8 +31,9 @@ a:active {
 /* TITLES =================== */ 
 
 mark {
-  background-color: darkyellow; 
-	color: black black;
+  background-color: black; 
+	color: yellow;
+	font-family: PublicPixel
 }
 
 smark {
@@ -494,8 +495,8 @@ aniemotwelve::before {
 aniemothirteen::before {
     content: " (◑﹏◐)?  ";
     animation: animathe infinite 2s;
-		background-color: yellow;
-		color: black;
+		background-color: black;
+		color: yellow;
 }
 @keyframes animathe { 
     0% {
@@ -515,8 +516,8 @@ aniemothirteen::before {
 aniemofourteen::before {
     content: "o(≧u≦)o";
     animation: animatheg infinite 0.7s;
-		background-color: yellow;
-		color: black;
+		background-color: black;
+		color: yellow;
 }
 @keyframes animatheg { 
     0% {
@@ -536,8 +537,8 @@ aniemofourteen::before {
 aniemofifthteen::before {
     content: "(❁´◡`❁)";
     animation: animathege infinite 0.7s;
-		background-color: yellow;
-		color: black;
+		background-color: black;
+		color: yellow;
 }
 @keyframes animathege { 
     0% {
@@ -557,8 +558,8 @@ aniemofifthteen::before {
 aniemosixteen::before {
     content: " щ(ʘ╻ʘ)щ ";
     animation: animathehe infinite 0.7s;
-		background-color: yellow;
-		color: black;
+		background-color: black;
+		color: yellow;
 }
 @keyframes animathehe { 
     0% {
@@ -578,7 +579,7 @@ aniemosixteen::before {
 aniemoseventeen::before {
     content: " ᕦ(òuó)ᕤ ";
     animation: animaterrys infinite 1s;
-		color: black;
+		color: yellow;
 }
 @keyframes animaterrys {
     0% {
@@ -738,8 +739,7 @@ aniemotwentyfour::before {
 aniemotwentyfive::before {
     content: "(★‿★)";
     animation: animtty infinite 0.7s;
-		color: black;
-		background-color: yellow;
+		color: yellow;
 }
 @keyframes animtty { 
     0% {
@@ -759,8 +759,7 @@ aniemotwentyfive::before {
 aniemotwentysix::before {
     content: "(*≧o≦))('▽`* )ゞ ";
     animation: animttyy infinite 1.2s;
-		color: black;
-		background-color: yellow;
+		color: yellow;
 }
 @keyframes animttyy { 
     0% {
