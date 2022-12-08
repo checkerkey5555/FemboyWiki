@@ -17,16 +17,52 @@ a:visited {
 }
 
 a:hover {
-  color: lightgoldenrodyellow;
+  color: lawngreen;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
   color: yellow;
-  background-color: transparent;
+  background-color: yellow;
   text-decoration: underline;
 }
+
+/* DROP DOWN MENU CODE =================== */ 
+
+
+.dropbtn {
+    background-color: black;
+    color: red;
+    font-family: monospace;
+    border-color: floralwhite;
+}
+
+.dropdown {
+    position: relative;
+    display:inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position:absolute;
+    background-color: black;
+		bottom: 
+    min-width: 140px;
+    z-index: 100;
+	 
+}
+
+.dropdown-content a {
+    color:red;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {text-decoration: underline; color: lawngreen}
+.dropdown:hover .dropdown-content {display:block;}
+.dropdown:hover .dropbtn {background-color: black;color: lawngreen;text-decoration: underline;}
 
 /* TITLES =================== */ 
 
@@ -142,27 +178,22 @@ wlmark6 {
 /* little strip for the thingy ====================== */
 
 xqmark1 {
-  background-color: ; 
 	color: #333277;
 }
 
 xqmark2 {
-  background-color: ; 
 	color: #fdea2c;
 }
 
 xqmark3 {
-  background-color: ; 
 	color: #ffbd08;
 }
 
 xqmark4 {
-  background-color: ; 
 	color: #c8c8c8;
 }
 
 xqmark5 {
-  background-color: ; 
 	color: #5e5e5e;
 }
 
@@ -743,17 +774,13 @@ aniemotwentyfive::before {
 }
 @keyframes animtty { 
     0% {
-        content: "(★‿★)";
-      }
+        content: "(★‿★)";}
     25% {
-        content: "(✯◡✯)";
-      }
+        content: "(✯◡✯)";}
     50% {
-        content: "(☆◡☆)";
-      }
+        content: "(☆◡☆)";}
     75% {
-        content: "(✹‿✹)";
-			}
+        content: "(✹‿✹)";}
 }
 
 aniemotwentysix::before {
@@ -771,6 +798,23 @@ aniemotwentysix::before {
     75% {
         content: "(*≧u≦))('O`* )ゞ";}
 }
+
+aniemotwentyseven::before {
+    content: "(OuO)";
+    animation: animttyyx infinite 1.2s;
+		color: lightpink;
+}
+@keyframes animttyyx { 
+    0% {
+        content: "(OuO)";}
+    25% {
+        content: "(OUO)";}
+    50% {
+        content: "(OvO)";}
+    75% {
+        content: "(OUO)";}
+}
+
 
 /* text flipper ============ */
 
